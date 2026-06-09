@@ -4,11 +4,11 @@ $conn = mysqli_connect(
     "localhost",
     "root",
     "",
-    "vehicle_rental"
+    "car_rental_db"
 );
 
 if(!$conn){
-    die("Connection Failed");
+    die("Connection Failed: " . mysqli_connect_error());
 }
 
 ?>
