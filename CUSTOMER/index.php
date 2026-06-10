@@ -51,7 +51,7 @@ if (!isset($_SESSION['customer_id'])) {
             <li class="nav-item"><a href="services.php" class="nav-link">Services</a></li>
             <li class="nav-item"><a href="pricing.php" class="nav-link">Pricing</a></li>
             <li class="nav-item"><a href="car.php" class="nav-link">Cars</a></li>
-            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="profile.php" class="nav-link">Customer Profile</a></li>
             <li class="nav-item"><a href="logout.php" class="nav-link" onclick="return confirm('Are you sure you want to log out?');" style="color: #ff4d4d; font-weight: bold;">Logout</a></li>
           </ul>
         </div>
