@@ -254,7 +254,7 @@ if (!isset($_SESSION['customer_id'])) {
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry justify-content-end">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/image_1.jpg');">
               </a>
               <div class="text pt-4">
                 <div class="meta mb-3">
@@ -269,7 +269,7 @@ if (!isset($_SESSION['customer_id'])) {
           </div>
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry justify-content-end">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/image_2.jpg');">
               </a>
               <div class="text pt-4">
                 <div class="meta mb-3">
@@ -284,7 +284,7 @@ if (!isset($_SESSION['customer_id'])) {
           </div>
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              <a href="blog-single.php" class="block-20" style="background-image: url('images/image_3.jpg');">
               </a>
               <div class="text pt-4">
                 <div class="meta mb-3">
