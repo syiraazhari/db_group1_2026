@@ -65,12 +65,7 @@ if (!isset($_SESSION['customer_id'])) {
             <div class="text w-100 text-center mb-md-5 pb-md-5">
               <h1 class="mb-4">Fast &amp; Easy Way To Rent A Car</h1>
               <p style="font-size: 18px;">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts</p>
-              <a href="https://vimeo.com/45830194" class="icon-wrap popup-vimeo d-flex align-items-center mt-4 justify-content-center">
-                <div class="icon d-flex align-items-center justify-content-center">
-                  <span class="ion-ios-play"></span>
-                </div>
-                <div class="heading-title ml-5">
-                  <span>Easy steps for renting a car</span>
+             
                 </div>
               </a>
             </div>
@@ -326,9 +321,9 @@ if (!isset($_SESSION['customer_id'])) {
               <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                  <li><span class="icon icon-map-marker"></span><span class="text">Lot 203 KSJ, Setapak, W.P. Kuala Lumpur, Malaysia</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+60 14-949 5178</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">carbook@gmail.com</span></a></li>
                 </ul>
               </div>
             </div>

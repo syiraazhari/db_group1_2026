@@ -1,3 +1,47 @@
+<?php
+$conn = mysqli_connect("localhost","root","","car_rental_db");
+if(isset($result))
+{
+    echo "<h3 class='mt-4'>Available Cars</h3>";
+
+    while($row = mysqli_fetch_assoc($result))
+    {
+?>
+        <div class="card mt-3">
+            <div class="card-body">
+
+                <h4><?php echo $row['VehicleName']; ?></h4>
+
+                <p>
+                    <strong>Vehicle ID:</strong>
+                    <?php echo $row['VehicleID']; ?>
+                </p>
+
+                <p>
+                    <strong>Plate Number:</strong>
+                    <?php echo $row['PlateNumber']; ?>
+                </p>
+
+                <p>
+                    <strong>Rental Price:</strong>
+                    RM <?php echo $row['RentalPrice']; ?>/day
+                </p>
+
+                <p>
+                    <strong>Status:</strong>
+                    <?php echo $row['AvailabilityStatus']; ?>
+                </p>
+
+                <button class="btn btn-success">
+                    Book Now
+                </button>
+
+            </div>
+        </div>
+<?php
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -69,6 +113,21 @@
           <div class="col-md-7 text-center heading-section ftco-animate">
           	<span class="subheading">Services</span>
             <h2 class="mb-3">Our Latest Services</h2>
+            <form method="POST" class="mt-4">
+    <div class="form-group">
+        <label>Pick-up Date</label>
+        <input type="date" name="pickup" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+        <label>Return Date</label>
+        <input type="date" name="return" class="form-control" required>
+    </div>
+
+    <button type="submit" name="check" class="btn btn-primary">
+        Check Availability
+    </button>
+</form>
           </div>
         </div>
 				<div class="row">
@@ -167,9 +226,9 @@
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Lot 203 KSJ, Setapak, W.P. Kuala Lumpur, Malaysia</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+60 14-949 5178</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">carbook@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
