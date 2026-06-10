@@ -39,7 +39,7 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="availabality.php" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="availabality.php" class="nav-link">Availabality</a></li>
 	          <li class="nav-item active"><a href="rent.php" class="nav-link">Rent</a></li>
 	          <li class="nav-item"><a href="car.php" class="nav-link">Cars</a></li>
 	          <li class="nav-item"><a href="profile.php" class="nav-link">Customer Profile</a></li>
@@ -84,20 +84,20 @@
 						        <td class="product-name">
 						        	<h3>Perodua Aruz</h3>
 						        	<p class="mb-0 rated">
-						        		<span>rated:</span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        	</p>
+    									<span>rated:</span>
+ 										<span class="ion-ios-star"></span>
+    									<span class="ion-ios-star"></span>
+    									<span class="ion-ios-star-half"></span>
+									    <span class="ion-ios-star" style="color: #e6e6e6;"></span>
+									    <span class="ion-ios-star"></span>
+									</p>
 						        </td>
 						        
 						        <td class="price">
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 10.99</span>
+							        		<span class="num">RM 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -108,7 +108,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 60.99</span>
+							        		<span class="num">RM 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -119,7 +119,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 995.99</span>
+							        		<span class="num">RM 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -132,12 +132,12 @@
 						        <td class="product-name">
 						        	<h3>Honda City Hatchback</h3>
 						        	<p class="mb-0 rated">
-						        		<span>rated:</span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
+    									<span>rated:</span>
+    									<span class="ion-ios-star"></span>
+    									<span class="ion-ios-star"></span>
+    									<span class="ion-ios-star"></span>
+    									<span class="ion-ios-star-half"></span>
+    									<span class="ion-ios-star" style="color: #e6e6e6;"></span>
 						        	</p>
 						        </td>
 						        
@@ -145,7 +145,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 10.99</span>
+							        		<span class="num">RM 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -156,7 +156,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 60.99</span>
+							        		<span class="num">RM 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -167,7 +167,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 995.99</span>
+							        		<span class="num">RM 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -193,7 +193,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 10.99</span>
+							        		<span class="num">RM 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -204,7 +204,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 60.99</span>
+							        		<span class="num">RM 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -215,7 +215,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 995.99</span>
+							        		<span class="num">RM 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -232,7 +232,7 @@
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star-half"></span>
 						        		<span class="ion-ios-star"></span>
 						        	</p>
 						        </td>
@@ -241,7 +241,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 10.99</span>
+							        		<span class="num">RM 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -252,7 +252,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 60.99</span>
+							        		<span class="num">RM 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -263,7 +263,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 995.99</span>
+							        		<span class="num">RM 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -282,7 +282,7 @@
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star" style="color: #02c39a;"></span>
 						        	</p>
 						        </td>
 						        
@@ -290,7 +290,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 10.99</span>
+							        		<span class="num">RM 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -301,7 +301,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 60.99</span>
+							        		<span class="num">RM 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -312,7 +312,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 995.99</span>
+							        		<span class="num">RM 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -322,16 +322,16 @@
 
 
 						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/myvi.jpg);"></div></td>
+						      	<td class="car-image"><div class="img" style="background-image:url(images/s70.jpg);"></div></td>
 						        <td class="product-name">
-						        	<h3>Perodua Myvi</h3>
+						        	<h3>Proton S70</h3>
 						        	<p class="mb-0 rated">
 						        		<span>rated:</span>
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star-half" style="color: #02c39a;"></span>
 						        	</p>
 						        </td>
 						        
@@ -339,7 +339,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 10.99</span>
+							        		<span class="num">RM 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -350,7 +350,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 60.99</span>
+							        		<span class="num">RM 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -361,7 +361,7 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">RM</small> 995.99</span>
+							        		<span class="num">RM 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
 							        	<span class="subheading">RM3/hour fuel surcharges</span>
@@ -396,7 +396,7 @@
               <h2 class="ftco-heading-2">Information</h2>
               <ul class="list-unstyled">
                 <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Services</a></li>
+                <li><a href="#" class="py-2 d-block">Availabality</a></li>
                 <li><a href="#" class="py-2 d-block">Term and Conditions</a></li>
                 <li><a href="#" class="py-2 d-block">Best Price Guarantee</a></li>
                 <li><a href="#" class="py-2 d-block">Privacy &amp; Cookies Policy</a></li>
