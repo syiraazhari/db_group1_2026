@@ -39,8 +39,8 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="availabality.php" class="nav-link">Services</a></li>
-	          <li class="nav-item"><a href="rent.php" class="nav-link">Pricing</a></li>
+	          <li class="nav-item"><a href="availabality.php" class="nav-link">Availabality</a></li>
+	          <li class="nav-item"><a href="rent.php" class="nav-link">Rent</a></li>
 	          <li class="nav-item active"><a href="car.php" class="nav-link">Cars</a></li>
 	          <li class="nav-item"><a href="profile.php" class="nav-link">Customer Profile</a></li>
             <li class="nav-item"><a href="logout.php" class="nav-link" onclick="return confirm('Are you sure you want to log out?');" style="color: #ff4d4d; font-weight: bold;">Logout</a></li>
@@ -76,7 +76,7 @@
 	    						<span class="cat">Perodua</span>
 	    						<p class="price ml-auto">RM45 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -90,7 +90,7 @@
 	    						<span class="cat">Honda</span>
 	    						<p class="price ml-auto">RM 50 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -104,7 +104,7 @@
 	    						<span class="cat">Honda</span>
 	    						<p class="price ml-auto">RM 70 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -119,7 +119,7 @@
 	    						<span class="cat">Honda</span>
 	    						<p class="price ml-auto">RM 65 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -133,7 +133,7 @@
 	    						<span class="cat">Proton</span>
 	    						<p class="price ml-auto">RM 56  <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -147,7 +147,7 @@
 	    						<span class="cat">Toyota</span>
 	    						<p class="price ml-auto">RM 75 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -162,7 +162,7 @@
 	    						<span class="cat">Honda</span>
 	    						<p class="price ml-auto">RM50 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -176,7 +176,7 @@
 	    						<span class="cat">Perodua</span>
 	    						<p class="price ml-auto">RM 35 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -190,7 +190,7 @@
 	    						<span class="cat">Proton</span>
 	    						<p class="price ml-auto">RM 45 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -205,7 +205,7 @@
 	    						<span class="cat">Toyota</span>
 	    						<p class="price ml-auto">RM 65 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -219,7 +219,7 @@
 	    						<span class="cat">Proton</span>
 	    						<p class="price ml-auto">RM 55 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -233,7 +233,7 @@
 	    						<span class="cat">Hyundai</span>
 	    						<p class="price ml-auto">RM 75 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -241,15 +241,6 @@
     		<div class="row mt-5">
           <div class="col text-center">
             <div class="block-27">
-              <ul>
-                <li><a href="#">&lt;</a></li>
-                <li class="active"><span>1</span></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">&gt;</a></li>
-              </ul>
             </div>
           </div>
         </div>

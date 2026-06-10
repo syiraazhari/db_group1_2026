@@ -67,10 +67,10 @@
       	<div class="row justify-content-center">
       		<div class="col-md-12">
       			<div class="car-details">
-      				<div class="img rounded" style="background-image: url(images/bg_1.jpg);"></div>
+      				<div class="img rounded" style="background-image: url(images/aruz.jpg);"></div>
       				<div class="text text-center">
-      					<span class="subheading">Cheverolet</span>
-      					<h2>Mercedes Grand Sedan</h2>
+      					<span class="subheading">Perodua</span>
+      					<h2>Perodua aruz</h2>
       				</div>
       			</div>
       		</div>
@@ -84,7 +84,7 @@
 	              	<div class="text">
 		                <h3 class="heading mb-0 pl-3">
 		                	Mileage
-		                	<span>40,000</span>
+		                	<span>10,000</span>
 		                </h3>
 	                </div>
                 </div>
@@ -99,7 +99,7 @@
 	              	<div class="text">
 		                <h3 class="heading mb-0 pl-3">
 		                	Transmission
-		                	<span>Manual</span>
+		                	<span>Auto</span>
 		                </h3>
 	                </div>
                 </div>
@@ -114,7 +114,7 @@
 	              	<div class="text">
 		                <h3 class="heading mb-0 pl-3">
 		                	Seats
-		                	<span>5 Adults</span>
+		                	<span>7 Adults</span>
 		                </h3>
 	                </div>
                 </div>
@@ -129,7 +129,7 @@
 	              	<div class="text">
 		                <h3 class="heading mb-0 pl-3">
 		                	Luggage
-		                	<span>4 Bags</span>
+		                	<span>6 Bags</span>
 		                </h3>
 	                </div>
                 </div>
@@ -216,8 +216,8 @@
 									   		<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
 									   		<div class="desc">
 									   			<h4>
-									   				<span class="text-left">Jacob Webb</span>
-									   				<span class="text-right">14 March 2018</span>
+									   				<span class="text-left">Faizal Ismail</span>
+									   				<span class="text-right">14 March 2020</span>
 									   			</h4>
 									   			<p class="star">
 									   				<span>
@@ -229,15 +229,15 @@
 								   					</span>
 								   					<span class="text-right"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
 									   			</p>
-									   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+									   			<p>Kereta memang selesa and best, bersih dan mantap</p>
 									   		</div>
 									   	</div>
 									   	<div class="review d-flex">
 									   		<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
 									   		<div class="desc">
 									   			<h4>
-									   				<span class="text-left">Jacob Webb</span>
-									   				<span class="text-right">14 March 2018</span>
+									   				<span class="text-left">Tuan Mohd</span>
+									   				<span class="text-right">14 March 2021</span>
 									   			</h4>
 									   			<p class="star">
 									   				<span>
@@ -249,15 +249,15 @@
 								   					</span>
 								   					<span class="text-right"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
 									   			</p>
-									   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+									   			<p>Kereta in good condition sangat bersih dan sesuai untuk jalan jauh</p>
 									   		</div>
 									   	</div>
 									   	<div class="review d-flex">
 									   		<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
 									   		<div class="desc">
 									   			<h4>
-									   				<span class="text-left">Jacob Webb</span>
-									   				<span class="text-right">14 March 2018</span>
+									   				<span class="text-left">Danish Aiman</span>
+									   				<span class="text-right">14 March 2022</span>
 									   			</h4>
 									   			<p class="star">
 									   				<span>
@@ -269,7 +269,7 @@
 								   					</span>
 								   					<span class="text-right"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
 									   			</p>
-									   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+									   			<p>Memang best bawak dengan family</p>
 									   		</div>
 									   	</div>
 							   		</div>
@@ -355,43 +355,43 @@
         <div class="row">
         	<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-1.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/gryaris.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Mercedes Grand Sedan</a></h2>
+    						<h2 class="mb-0"><a href="car-single.php">Toyota GR Yaris</a></h2>
     						<div class="d-flex mb-3">
-	    						<span class="cat">Cheverolet</span>
-	    						<p class="price ml-auto">$500 <span>/day</span></p>
+	    						<span class="cat">Toyota</span>
+	    						<p class="price ml-auto">RM 1000 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-2.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/vellfire.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Range Rover</a></h2>
+    						<h2 class="mb-0"><a href="car-single.php">Toyota Vellfire</a></h2>
     						<div class="d-flex mb-3">
-	    						<span class="cat">Subaru</span>
-	    						<p class="price ml-auto">$500 <span>/day</span></p>
+	    						<span class="cat">Toyota</span>
+	    						<p class="price ml-auto">RM 500 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-3.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/staria.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Mercedes Grand Sedan</a></h2>
+    						<h2 class="mb-0"><a href="car-single.php">Hyundai Staria</a></h2>
     						<div class="d-flex mb-3">
-	    						<span class="cat">Cheverolet</span>
-	    						<p class="price ml-auto">$500 <span>/day</span></p>
+	    						<span class="cat">Hyundai</span>
+	    						<p class="price ml-auto">RM 500 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
