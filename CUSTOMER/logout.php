@@ -5,7 +5,7 @@ session_destroy();
 
 echo "<script>
         alert('You have logged out successfully.');
-        window.location='../customer/register.php';
+        window.location='../customer/login.php';
       </script>";
 exit();
 ?>
