@@ -6,21 +6,43 @@ ini_set('display_errors', 1);
 
 if(isset($_POST['register'])){
 
-    $fullname = $_POST['fullname'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $address = $_POST['address'];
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+    $fullname = mysqli_real_escape_string($conn, $_POST['fullname']);
+    $email    = mysqli_real_escape_string($conn, $_POST['email']);
+    $phone    = mysqli_real_escape_string($conn, $_POST['phone']);
+    $address  = mysqli_real_escape_string($conn, $_POST['address']);
+    $username = mysqli_real_escape_string($conn, $_POST['username']);
+    $password = mysqli_real_escape_string($conn, $_POST['password']);
 
-    $sql = "INSERT INTO customer
-    (FullName, Email, PhoneNumber, Address, Username, Password)
-    VALUES
-    ('$fullname','$email','$phone','$address','$username','$password')";
+    $check_user = "SELECT Username FROM customer WHERE Username = '$username'";
+    $check_result = mysqli_query($conn, $check_user);
 
-    mysqli_query($conn, $sql);
+    if(mysqli_num_rows($check_result) > 0) {
+        echo "<script>
+                alert('Error: The username \'$username\' is already taken! Please choose another one.');
+                window.history.back();
+              </script>";
+        exit();
+    } else {
+        $sql = "INSERT INTO customer
+        (FullName, Email, PhoneNumber, Address, Username, Password)
+        VALUES
+        ('$fullname','$email','$phone','$address','$username','$password')";
 
-    echo "<script>alert('Registration Successful!');</script>";
+        if(mysqli_query($conn, $sql))
+        {
+            echo "<script>
+                    alert('Registration Successful!');
+                    window.location='../customer/index.php';
+                  </script>";
+            exit();
+        }
+        else
+        {
+            echo "<script>
+                    alert('Registration Failed!');
+                  </script>";
+        }
+    }
 }
 ?>
 
@@ -32,7 +54,6 @@ if(isset($_POST['register'])){
     <meta charset="utf-8">
     <title>Customer Register</title>
 
-    <!-- FIXED PATHS (VERY IMPORTANT) -->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="../css/sb-admin-2.min.css" rel="stylesheet">
 
@@ -52,10 +73,8 @@ if(isset($_POST['register'])){
 
 <div class="row">
 
-<!-- IMAGE SIDE -->
 <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
 
-<!-- FORM SIDE -->
 <div class="col-lg-7">
 
 <div class="p-5">
@@ -131,7 +150,8 @@ Register Account
 
 </div>
 
-<!-- FIXED JS PATHS (VERY IMPORTANT) -->
+</div>
+
 <script src="../vendor/jquery/jquery.min.js"></script>
 <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
