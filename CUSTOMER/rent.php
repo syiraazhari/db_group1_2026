@@ -40,7 +40,7 @@
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
 	          <li class="nav-item"><a href="availabality.php" class="nav-link">Services</a></li>
-	          <li class="nav-item active"><a href="rent.php" class="nav-link">Pricing</a></li>
+	          <li class="nav-item active"><a href="rent.php" class="nav-link">Rent</a></li>
 	          <li class="nav-item"><a href="car.php" class="nav-link">Cars</a></li>
 	          <li class="nav-item"><a href="profile.php" class="nav-link">Customer Profile</a></li>
 			              <li class="nav-item"><a href="logout.php" class="nav-link" onclick="return confirm('Are you sure you want to log out?');" style="color: #ff4d4d; font-weight: bold;">Logout</a></li>
@@ -80,9 +80,9 @@
 						    </thead>
 						    <tbody>
 						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-1.jpg);"></div></td>
+						      	<td class="car-image"><div class="img" style="background-image:url(images/aruz.jpg);"></div></td>
 						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
+						        	<h3>Perodua Aruz</h3>
 						        	<p class="mb-0 rated">
 						        		<span>rated:</span>
 						        		<span class="ion-ios-star"></span>
@@ -97,10 +97,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
+							        		<span class="num"><small class="currency">RM</small> 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 						        	</div>
 						        </td>
 						        
@@ -108,10 +108,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
+							        		<span class="num"><small class="currency">RM</small> 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 						        </div>
 						        </td>
 
@@ -119,18 +119,18 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
+							        		<span class="num"><small class="currency">RM</small> 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
 
 						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-2.jpg);"></div></td>
+						      	<td class="car-image"><div class="img" style="background-image:url(images/city_hatchback.jpg);"></div></td>
 						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
+						        	<h3>Honda City Hatchback</h3>
 						        	<p class="mb-0 rated">
 						        		<span>rated:</span>
 						        		<span class="ion-ios-star"></span>
@@ -145,10 +145,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
+							        		<span class="num"><small class="currency">RM</small> 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						        
@@ -156,10 +156,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
+							        		<span class="num"><small class="currency">RM</small> 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
@@ -167,18 +167,18 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
+							        		<span class="num"><small class="currency">RM</small> 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
 
 						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-3.jpg);"></div></td>
+						      	<td class="car-image"><div class="img" style="background-image:url(images/civic.jpg);"></div></td>
 						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
+						        	<h3>Honda Civic</h3>
 						        	<p class="mb-0 rated">
 						        		<span>rated:</span>
 						        		<span class="ion-ios-star"></span>
@@ -193,10 +193,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
+							        		<span class="num"><small class="currency">RM</small> 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						        
@@ -204,10 +204,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
+							        		<span class="num"><small class="currency">RM</small> 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
@@ -215,18 +215,18 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
+							        		<span class="num"><small class="currency">RM</small> 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
 
 						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-4.jpg);"></div></td>
+						      	<td class="car-image"><div class="img" style="background-image:url(images/emas7.jpg);"></div></td>
 						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
+						        	<h3>Perodua Emas 7</h3>
 						        	<p class="mb-0 rated">
 						        		<span>rated:</span>
 						        		<span class="ion-ios-star"></span>
@@ -241,10 +241,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
+							        		<span class="num"><small class="currency">RM</small> 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						        
@@ -252,10 +252,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
+							        		<span class="num"><small class="currency">RM</small> 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
@@ -263,19 +263,19 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
+							        		<span class="num"><small class="currency">RM</small> 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
 
 
 						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-5.jpg);"></div></td>
+						      	<td class="car-image"><div class="img" style="background-image:url(images/gryaris.jpg);"></div></td>
 						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
+						        	<h3>Toyota Yaris GR</h3>
 						        	<p class="mb-0 rated">
 						        		<span>rated:</span>
 						        		<span class="ion-ios-star"></span>
@@ -290,10 +290,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
+							        		<span class="num"><small class="currency">RM</small> 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						        
@@ -301,10 +301,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
+							        		<span class="num"><small class="currency">RM</small> 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
@@ -312,19 +312,19 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
+							        		<span class="num"><small class="currency">RM</small> 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
 
 
 						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/car-6.jpg);"></div></td>
+						      	<td class="car-image"><div class="img" style="background-image:url(images/myvi.jpg);"></div></td>
 						        <td class="product-name">
-						        	<h3>Cheverolet SUV Car</h3>
+						        	<h3>Perodua Myvi</h3>
 						        	<p class="mb-0 rated">
 						        		<span>rated:</span>
 						        		<span class="ion-ios-star"></span>
@@ -339,10 +339,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 10.99</span>
+							        		<span class="num"><small class="currency">RM</small> 10.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						        
@@ -350,10 +350,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 60.99</span>
+							        		<span class="num"><small class="currency">RM</small> 60.99</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
@@ -361,10 +361,10 @@
 						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">$</small> 995.99</span>
+							        		<span class="num"><small class="currency">RM</small> 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
-							        	<span class="subheading">$3/hour fuel surcharges</span>
+							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
@@ -420,9 +420,9 @@
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Lot 203 KSJ, Setapak, W.P. Kuala Lumpur, Malaysia</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+60 14-949 5178</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">carbook@gmael.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
