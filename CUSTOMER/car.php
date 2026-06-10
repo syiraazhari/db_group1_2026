@@ -82,7 +82,7 @@
     			</div>
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/city hatchback.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/city_hatchback.jpg);">
     					</div>
     					<div class="text">
     						<h2 class="mb-0"><a href="car-single.php">Honda City Hatchback</a></h2>
@@ -139,7 +139,7 @@
     			</div>
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/gr yaris.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/gryaris.jpg);">
     					</div>
     					<div class="text">
     						<h2 class="mb-0"><a href="car-single.php">Toyota Yaris GR</a></h2>
@@ -154,7 +154,7 @@
 
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/hrv.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/hr-v.jpg);">
     					</div>
     					<div class="text">
     						<h2 class="mb-0"><a href="car-single.php">Honda HRV</a></h2>
@@ -168,7 +168,7 @@
     			</div>
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-8.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/myvi.jpg);">
     					</div>
     					<div class="text">
     						<h2 class="mb-0"><a href="car-single.php">Perodua Myvi</a></h2>
@@ -182,7 +182,7 @@
     			</div>
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-9.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/s70.jpg);">
     					</div>
     					<div class="text">
     						<h2 class="mb-0"><a href="car-single.php">Proton S70</a></h2>
@@ -197,7 +197,7 @@
 
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-10.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/vellfire.jpg);">
     					</div>
     					<div class="text">
     						<h2 class="mb-0"><a href="car-single.php">Toyota Vellfire</a></h2>
@@ -211,7 +211,7 @@
     			</div>
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-11.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/x90.jpg);">
     					</div>
     					<div class="text">
     						<h2 class="mb-0"><a href="car-single.php">Proton X90</a></h2>
@@ -225,7 +225,7 @@
     			</div>
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-12.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/staria.jpg);">
     					</div>
     					<div class="text">
     						<h2 class="mb-0"><a href="car-single.php">Hyundai Staria</a></h2>
