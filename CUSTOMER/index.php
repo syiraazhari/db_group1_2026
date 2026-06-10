@@ -164,13 +164,13 @@ if (!isset($_SESSION['customer_id'])) {
             <div class="carousel-car owl-carousel">
               <div class="item">
                 <div class="car-wrap rounded ftco-animate">
-                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-1.jpg);">
+                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/x90.jpg);">
                   </div>
                   <div class="text">
-                    <h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
+                    <h2 class="mb-0"><a href="#">Proton X90</a></h2>
                     <div class="d-flex mb-3">
-                      <span class="cat">Cheverolet</span>
-                      <p class="price ml-auto">$500 <span>/day</span></p>
+                      <span class="cat">Proton</span>
+                      <p class="price ml-auto">RM 600 <span>/day</span></p>
                     </div>
                     <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
                   </div>
@@ -178,13 +178,13 @@ if (!isset($_SESSION['customer_id'])) {
               </div>
               <div class="item">
                 <div class="car-wrap rounded ftco-animate">
-                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-2.jpg);">
+                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/hr-v.jpg);">
                   </div>
                   <div class="text">
-                    <h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
+                    <h2 class="mb-0"><a href="#">Honda HR-V</a></h2>
                     <div class="d-flex mb-3">
-                      <span class="cat">Cheverolet</span>
-                      <p class="price ml-auto">$500 <span>/day</span></p>
+                      <span class="cat">Honda</span>
+                      <p class="price ml-auto">RM 700 <span>/day</span></p>
                     </div>
                     <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
                   </div>
@@ -192,13 +192,13 @@ if (!isset($_SESSION['customer_id'])) {
               </div>
               <div class="item">
                 <div class="car-wrap rounded ftco-animate">
-                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-3.jpg);">
+                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/gryaris.jpg);">
                   </div>
                   <div class="text">
-                    <h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
+                    <h2 class="mb-0"><a href="#">Toyota GR Yaris</a></h2>
                     <div class="d-flex mb-3">
-                      <span class="cat">Cheverolet</span>
-                      <p class="price ml-auto">$500 <span>/day</span></p>
+                      <span class="cat">Toyota</span>
+                      <p class="price ml-auto">RM 1000 <span>/day</span></p>
                     </div>
                     <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
                   </div>
@@ -206,13 +206,13 @@ if (!isset($_SESSION['customer_id'])) {
               </div>
               <div class="item">
                 <div class="car-wrap rounded ftco-animate">
-                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-4.jpg);">
+                  <div class="img rounded d-flex align-items-end" style="background-image: url(images/vellfire.jpg);">
                   </div>
                   <div class="text">
-                    <h2 class="mb-0"><a href="#">Mercedes Grand Sedan</a></h2>
+                    <h2 class="mb-0"><a href="#">Toyota Vellfire</a></h2>
                     <div class="d-flex mb-3">
-                      <span class="cat">Cheverolet</span>
-                      <p class="price ml-auto">$500 <span>/day</span></p>
+                      <span class="cat">Toyota</span>
+                      <p class="price ml-auto">RM 900 <span>/day</span></p>
                     </div>
                     <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
                   </div>
