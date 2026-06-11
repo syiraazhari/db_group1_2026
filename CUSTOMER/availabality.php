@@ -45,7 +45,7 @@ if(isset($result))
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Carbook - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Our Service with FawCar</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -74,7 +74,7 @@ if(isset($result))
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">Car<span>Book</span></a>
+	      <a class="navbar-brand" href="index.php">Faw<span>Car</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -114,6 +114,7 @@ if(isset($result))
           	<span class="subheading">Services</span>
             <h2 class="mb-3">Our Latest Services</h2>
             <form method="POST" class="mt-4">
+<form action="rent.php" method="GET" class="mt-4">
     <div class="form-group">
         <label>Pick-up Date</label>
         <input type="date" name="pickup" class="form-control" required>
@@ -123,10 +124,7 @@ if(isset($result))
         <label>Return Date</label>
         <input type="date" name="return" class="form-control" required>
     </div>
-
-    <button type="submit" name="check" class="btn btn-primary">
-        Check Availability
-    </button>
+<a href="rent.php" class="btn btn-primary d-inline-block">Check Availability</a>
 </form>
           </div>
         </div>
@@ -167,18 +165,6 @@ if(isset($result))
               </div>
             </div>
 					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section class="ftco-section ftco-intro" style="background-image: url(images/bg_3.jpg);">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row justify-content-end">
-					<div class="col-md-6 heading-section heading-section-white ftco-animate">
-            <h2 class="mb-3">Do You Want To Earn With Us? So Don't Be Late.</h2>
-            <a href="#" class="btn btn-primary btn-lg">Become A Driver</a>
-          </div>
 				</div>
 			</div>
 		</section>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Carbook - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Car Listing</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -30,7 +30,7 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">Car<span>Book</span></a>
+	      <a class="navbar-brand" href="index.php">Faw<span>Car</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -139,7 +139,7 @@
     			</div>
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/gryaris.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/yaris_gr.jpg);">
     					</div>
     					<div class="text">
     						<h2 class="mb-0"><a href="car-single.php">Toyota Yaris GR</a></h2>
@@ -154,7 +154,7 @@
 
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/hr-v.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/hrv.jpg);">
     					</div>
     					<div class="text">
     						<h2 class="mb-0"><a href="car-single.php">Honda HRV</a></h2>

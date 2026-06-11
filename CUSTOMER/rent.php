@@ -1,7 +1,14 @@
+<?php
+// 1. DATABASE CONFIGURATION & CONNECTION
+require_once '../config/db.php';
+
+// Default mock customer context id matching system structure
+$customerID = 1; 
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Carbook - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Rental Car Listing</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -15,22 +22,30 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
 
     <link rel="stylesheet" href="css/aos.css">
-
     <link rel="stylesheet" href="css/ionicons.min.css">
-
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
-
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      /* Cosmetic Disabled Button Styles */
+      .btn-disabled-cosmetic a {
+          background: #e6e6e6 !important;
+          border: 1px solid #d9d9d9 !important;
+          color: #8c8c8c !important;
+          cursor: not-allowed !important;
+          pointer-events: none; /* Stops clicks completely */
+      }
+    </style>
   </head>
   <body>
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">Car<span>Book</span></a>
+	      <a class="navbar-brand" href="index.php">Faw<span>Car</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -43,8 +58,7 @@
 	          <li class="nav-item active"><a href="rent.php" class="nav-link">Rent</a></li>
 	          <li class="nav-item"><a href="car.php" class="nav-link">Cars</a></li>
 	          <li class="nav-item"><a href="profile.php" class="nav-link">Customer Profile</a></li>
-			              <li class="nav-item"><a href="logout.php" class="nav-link" onclick="return confirm('Are you sure you want to log out?');" style="color: #ff4d4d; font-weight: bold;">Logout</a></li>
-
+			  <li class="nav-item"><a href="logout.php" class="nav-link" onclick="return confirm('Are you sure you want to log out?');" style="color: #ff4d4d; font-weight: bold;">Logout</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -79,105 +93,91 @@
 						      </tr>
 						    </thead>
 						    <tbody>
-						      <tr class="">
+						      
+						      <!-- ROW 1: Perodua Aruz -->
+						      <tr class="text-center">
 						      	<td class="car-image"><div class="img" style="background-image:url(images/aruz.jpg);"></div></td>
-						        <td class="product-name">
+						        <td class="product-name text-left">
 						        	<h3>Perodua Aruz</h3>
 						        	<p class="mb-0 rated">
     									<span>rated:</span>
  										<span class="ion-ios-star"></span>
     									<span class="ion-ios-star"></span>
-    									<span class="ion-ios-star-half"></span>
-									    <span class="ion-ios-star" style="color: #e6e6e6;"></span>
+    									<span class="ion-ios-star"></span>
 									    <span class="ion-ios-star"></span>
+									    <span class="ion-ios-star" style="color: #e6e6e6;"></span>
 									</p>
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/hr</span></h3>
 						        	</div>
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom"><a href="#" class="rent-trigger-btn" data-id="1" data-name="Perodua Aruz" data-price="45.00">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num">RM 60.99</span>
+							        		<span class="num">RM 45.00</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
 						        </div>
 						        </td>
 
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/mo</span></h3>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
 
-						      <tr class="">
+						      <!-- ROW 2: Honda City Hatchback -->
+						      <tr class="text-center">
 						      	<td class="car-image"><div class="img" style="background-image:url(images/city_hatchback.jpg);"></div></td>
-						        <td class="product-name">
+						        <td class="product-name text-left">
 						        	<h3>Honda City Hatchback</h3>
 						        	<p class="mb-0 rated">
     									<span>rated:</span>
     									<span class="ion-ios-star"></span>
     									<span class="ion-ios-star"></span>
     									<span class="ion-ios-star"></span>
-    									<span class="ion-ios-star-half"></span>
-    									<span class="ion-ios-star" style="color: #e6e6e6;"></span>
+    									<span class="ion-ios-star"></span>
+    									<span class="ion-ios-star"></span>
 						        	</p>
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/hr</span></h3>
 							        </div>
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom"><a href="#" class="rent-trigger-btn" data-id="2" data-name="Honda City Hatchback" data-price="50.00">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num">RM 60.99</span>
+							        		<span class="num">RM 50.00</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/mo</span></h3>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
 
-						      <tr class="">
+						      <!-- ROW 3: Honda Civic -->
+						      <tr class="text-center">
 						      	<td class="car-image"><div class="img" style="background-image:url(images/civic.jpg);"></div></td>
-						        <td class="product-name">
+						        <td class="product-name text-left">
 						        	<h3>Honda Civic</h3>
 						        	<p class="mb-0 rated">
 						        		<span>rated:</span>
@@ -190,91 +190,114 @@
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/hr</span></h3>
 							        </div>
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom"><a href="#" class="rent-trigger-btn" data-id="3" data-name="Honda Civic" data-price="70.00">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num">RM 60.99</span>
+							        		<span class="num">RM 70.00</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/mo</span></h3>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
 
-						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/emas7.jpg);"></div></td>
-						        <td class="product-name">
-						        	<h3>Perodua Emas 7</h3>
+						      <!-- ROW 4: Honda CRV -->
+						      <tr class="text-center">
+						      	<td class="car-image"><div class="img" style="background-image:url(images/crv.jpg);"></div></td>
+						        <td class="product-name text-left">
+						        	<h3>Honda CRV</h3>
 						        	<p class="mb-0 rated">
 						        		<span>rated:</span>
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star-half"></span>
 						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star" style="color: #e6e6e6;"></span>
 						        	</p>
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/hr</span></h3>
 							        </div>
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom"><a href="#" class="rent-trigger-btn" data-id="4" data-name="Honda CRV" data-price="65.00">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num">RM 60.99</span>
+							        		<span class="num">RM 65.00</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/mo</span></h3>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
 
+						      <!-- ROW 5: Proton Emas 7 -->
+						      <tr class="text-center">
+						      	<td class="car-image"><div class="img" style="background-image:url(images/emas7.jpg);"></div></td>
+						        <td class="product-name text-left">
+						        	<h3>Proton Emas 7</h3>
+						        	<p class="mb-0 rated">
+						        		<span>rated:</span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star" style="color: #e6e6e6;"></span>
+						        	</p>
+						        </td>
+						        
+						        <td class="price">
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
+						        	<div class="price-rate">
+							        	<h3><span class="num">—</span><span class="per">/hr</span></h3>
+							        </div>
+						        </td>
+						        
+						        <td class="price">
+						        	<p class="btn-custom"><a href="#" class="rent-trigger-btn" data-id="5" data-name="Proton Emas 7" data-price="56.00">Rent a car</a></p>
+						        	<div class="price-rate">
+							        	<h3>
+							        		<span class="num">RM 56.00</span>
+							        		<span class="per">/per day</span>
+							        	</h3>
+							        </div>
+						        </td>
 
-						      <tr class="">
-						      	<td class="car-image"><div class="img" style="background-image:url(images/gryaris.jpg);"></div></td>
-						        <td class="product-name">
+						        <td class="price">
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
+						        	<div class="price-rate">
+							        	<h3><span class="num">—</span><span class="per">/mo</span></h3>
+							        </div>
+						        </td>
+						      </tr><!-- END TR-->
+
+						      <!-- ROW 6: Toyota Yaris GR -->
+						      <tr class="text-center">
+						      	<td class="car-image"><div class="img" style="background-image:url(images/yaris_gr.jpg);"></div></td>
+						        <td class="product-name text-left">
 						        	<h3>Toyota Yaris GR</h3>
 						        	<p class="mb-0 rated">
 						        		<span>rated:</span>
@@ -282,48 +305,119 @@
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star" style="color: #02c39a;"></span>
+						        		<span class="ion-ios-star"></span>
 						        	</p>
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/hr</span></h3>
 							        </div>
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom"><a href="#" class="rent-trigger-btn" data-id="6" data-name="Toyota Yaris GR" data-price="75.00">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num">RM 60.99</span>
+							        		<span class="num">RM 75.00</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/mo</span></h3>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
 
+						      <!-- ROW 7: Honda HRV -->
+						      <tr class="text-center">
+						      	<td class="car-image"><div class="img" style="background-image:url(images/hrv.jpg);"></div></td>
+						        <td class="product-name text-left">
+						        	<h3>Honda HRV</h3>
+						        	<p class="mb-0 rated">
+						        		<span>rated:</span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star" style="color: #e6e6e6;"></span>
+						        	</p>
+						        </td>
+						        
+						        <td class="price">
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
+						        	<div class="price-rate">
+							        	<h3><span class="num">—</span><span class="per">/hr</span></h3>
+							        </div>
+						        </td>
+						        
+						        <td class="price">
+						        	<p class="btn-custom"><a href="#" class="rent-trigger-btn" data-id="7" data-name="Honda HRV" data-price="50.00">Rent a car</a></p>
+						        	<div class="price-rate">
+							        	<h3>
+							        		<span class="num">RM 50.00</span>
+							        		<span class="per">/per day</span>
+							        	</h3>
+							        </div>
+						        </td>
 
-						      <tr class="">
+						        <td class="price">
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
+						        	<div class="price-rate">
+							        	<h3><span class="num">—</span><span class="per">/mo</span></h3>
+							        </div>
+						        </td>
+						      </tr><!-- END TR-->
+
+						      <!-- ROW 8: Perodua Myvi -->
+						      <tr class="text-center">
+						      	<td class="car-image"><div class="img" style="background-image:url(images/myvi.jpg);"></div></td>
+						        <td class="product-name text-left">
+						        	<h3>Perodua Myvi</h3>
+						        	<p class="mb-0 rated">
+						        		<span>rated:</span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star"></span>
+						        		<span class="ion-ios-star"></span>
+						        	</p>
+						        </td>
+						        
+						        <td class="price">
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
+						        	<div class="price-rate">
+							        	<h3><span class="num">—</span><span class="per">/hr</span></h3>
+							        </div>
+						        </td>
+						        
+						        <td class="price">
+						        	<p class="btn-custom"><a href="#" class="rent-trigger-btn" data-id="8" data-name="Perodua Myvi" data-price="35.00">Rent a car</a></p>
+						        	<div class="price-rate">
+							        	<h3>
+							        		<span class="num">RM 35.00</span>
+							        		<span class="per">/per day</span>
+							        	</h3>
+							        </div>
+						        </td>
+
+						        <td class="price">
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
+						        	<div class="price-rate">
+							        	<h3><span class="num">—</span><span class="per">/mo</span></h3>
+							        </div>
+						        </td>
+						      </tr><!-- END TR-->
+
+						      <!-- ROW 9: Proton S70 -->
+						      <tr class="text-center">
 						      	<td class="car-image"><div class="img" style="background-image:url(images/s70.jpg);"></div></td>
-						        <td class="product-name">
+						        <td class="product-name text-left">
 						        	<h3>Proton S70</h3>
 						        	<p class="mb-0 rated">
 						        		<span>rated:</span>
@@ -331,43 +425,35 @@
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
 						        		<span class="ion-ios-star"></span>
-						        		<span class="ion-ios-star-half" style="color: #02c39a;"></span>
+						        		<span class="ion-ios-star"></span>
 						        	</p>
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 10.99</span>
-							        		<span class="per">/per hour</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/hr</span></h3>
 							        </div>
 						        </td>
 						        
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom"><a href="#" class="rent-trigger-btn" data-id="9" data-name="Proton S70" data-price="45.00">Rent a car</a></p>
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num">RM 60.99</span>
+							        		<span class="num">RM 45.00</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
 						        <td class="price">
-						        	<p class="btn-custom"><a href="#">Rent a car</a></p>
+						        	<p class="btn-custom btn-disabled-cosmetic"><a href="#">Not Available</a></p>
 						        	<div class="price-rate">
-							        	<h3>
-							        		<span class="num">RM 995.99</span>
-							        		<span class="per">/per month</span>
-							        	</h3>
-							        	<span class="subheading">RM3/hour fuel surcharges</span>
+							        	<h3><span class="num">—</span><span class="per">/mo</span></h3>
 							        </div>
 						        </td>
 						      </tr><!-- END TR-->
+
 						    </tbody>
 						  </table>
 					  </div>
@@ -376,92 +462,96 @@
 			</div>
 		</section>
 
+    <!-- POP-UP MODAL FRAMEWORK -->
+    <div class="modal fade" id="rentDateSelectionModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content" style="border-radius: 12px; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+                <div class="modal-header bg-dark text-white" style="border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                    <h5 class="modal-title" style="font-weight: 600; font-family: 'Poppins', sans-serif;">Confirm Vehicle Schedule</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="process_rent.php" method="POST">
+                    <div class="modal-body p-4" style="font-family: 'Poppins', sans-serif;">
+                        <input type="hidden" name="vehicle_id" id="sysVehicleID">
+                        <input type="hidden" name="customer_id" value="<?php echo $customerID; ?>">
 
+                        <div class="p-3 mb-4 rounded border bg-light" style="font-size: 14px;">
+                            <div class="mb-1"><strong>Selected Model:</strong> <span id="lblCarName" class="text-dark"></span></div>
+                            <div class="mb-1"><strong>Rental Tier:</strong> <span class="badge badge-primary px-2 py-1">Per Day Rate</span></div>
+                            <div><strong>Rate Fee Breakdown:</strong> <span class="font-weight-bold">RM <span id="lblPrice"></span></span></div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-6">
+                                <label class="font-weight-bold text-dark small">Pick-up Date</label>
+                                <input type="date" name="pickup_date" id="calPickup" class="form-control" required min="<?php echo date('Y-m-d'); ?>">
+                            </div>
+                            <div class="form-group col-6">
+                                <label class="font-weight-bold text-dark small">Return Date</label>
+                                <input type="date" name="return_date" id="calReturn" class="form-control" required min="<?php echo date('Y-m-d'); ?>">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer bg-light" style="border-bottom-left-radius: 12px; border-bottom-right-radius: 12px;">
+                        <button type="button" class="btn btn-secondary px-4" data-dismiss="modal">Cancel</button>
+                        <button type="submit" name="submit_booking_action" class="btn btn-primary px-4">Verify Availability</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footers -->
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><a href="#" class="logo">Car<span>book</span></a></h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Information</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Availabality</a></li>
-                <li><a href="#" class="py-2 d-block">Term and Conditions</a></li>
-                <li><a href="#" class="py-2 d-block">Best Price Guarantee</a></li>
-                <li><a href="#" class="py-2 d-block">Privacy &amp; Cookies Policy</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Customer Support</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">FAQ</a></li>
-                <li><a href="#" class="py-2 d-block">Payment Option</a></li>
-                <li><a href="#" class="py-2 d-block">Booking Tips</a></li>
-                <li><a href="#" class="py-2 d-block">How it works</a></li>
-                <li><a href="#" class="py-2 d-block">Contact Us</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Lot 203 KSJ, Setapak, W.P. Kuala Lumpur, Malaysia</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+60 14-949 5178</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">carbook@gmael.com</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
         <div class="row">
           <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | CarBook System</p>
           </div>
         </div>
       </div>
     </footer>
-    
-  
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
+    <script>
+    $(document).ready(function() {
+        $('.rent-trigger-btn').on('click', function(e) {
+            e.preventDefault();
+            
+            var carId = $(this).data('id');
+            var carName = $(this).data('name');
+            var price = $(this).data('price');
+
+            $('#sysVehicleID').val(carId);
+            $('#lblCarName').text(carName);
+            $('#lblPrice').text(price);
+
+            $('#rentDateSelectionModal').modal('show');
+        });
+
+        $('#calPickup').on('change', function() {
+            $('#calReturn').attr('min', $(this).val());
+        });
+    });
+    </script>
   </body>
 </html>

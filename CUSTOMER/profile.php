@@ -32,7 +32,7 @@ $row = mysqli_fetch_assoc($result);
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Carbook - Customer Profile View</title>
+    <title>Customer Profile View</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -58,7 +58,7 @@ $row = mysqli_fetch_assoc($result);
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">Car<span>Book</span></a>
+	      <a class="navbar-brand" href="index.php">Faw<span>Car</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -67,8 +67,8 @@ $row = mysqli_fetch_assoc($result);
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="availabality.php" class="nav-link">Availabality</a></li>
-	          <li class="nav-item"><a href="rent.php" class="nav-link">Rent</a></li>
+	          <li class="nav-item"><a href="services.php" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="pricing.php" class="nav-link">Pricing</a></li>
 	          <li class="nav-item"><a href="car.php" class="nav-link">Cars</a></li>
 	          <li class="nav-item active"><a href="contact.php" class="nav-link">Customer Profile</a></li>
 			              <li class="nav-item"><a href="logout.php" class="nav-link" onclick="return confirm('Are you sure you want to log out?');" style="color: #ff4d4d; font-weight: bold;">Logout</a></li>

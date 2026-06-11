@@ -11,7 +11,7 @@ if (!isset($_SESSION['customer_id'])) {
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Carbook - Free Bootstrap 4 Template by Colorlib</title>
+    <title>FawCar Main Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -39,7 +39,7 @@ if (!isset($_SESSION['customer_id'])) {
     
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-        <a class="navbar-brand" href="index.php">Car<span>Book</span></a>
+        <a class="navbar-brand" href="index.php">Faw<span>Car</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
@@ -104,9 +104,9 @@ if (!isset($_SESSION['customer_id'])) {
                     <label for="" class="label">Pick-up time</label>
                     <input type="text" class="form-control" id="time_pick" placeholder="Time">
                   </div>
-                  <div class="form-group">
-                    <input type="submit" value="Rent A Car Now" class="btn btn-secondary py-3 px-4">
-                  </div>
+<div class="form-group">
+    <a href="rent.php" class="btn btn-secondary py-3 px-4 d-block text-center">Rent A Car Now</a>
+</div>
                 </form>
               </div>
               <div class="col-md-8 d-flex align-items-center">
@@ -138,7 +138,6 @@ if (!isset($_SESSION['customer_id'])) {
                       </div>      
                     </div>
                   </div>
-                  <p><a href="#" class="btn btn-primary py-3 px-4">Reserve Your Perfect Car</a></p>
                 </div>
               </div>
             </div>
@@ -213,25 +212,6 @@ if (!isset($_SESSION['customer_id'])) {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section ftco-about">
-      <div class="container">
-        <div class="row no-gutters">
-          <div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/about.jpg);">
-          </div>
-          <div class="col-md-6 wrap-about ftco-animate">
-            <div class="heading-section heading-section-white pl-md-5">
-              <span class="subheading">About us</span>
-              <h2 class="mb-4">Welcome to Carbook</h2>
-
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-              <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-              <p><a href="#" class="btn btn-primary py-3 px-4">Search Vehicle</a></p>
             </div>
           </div>
         </div>

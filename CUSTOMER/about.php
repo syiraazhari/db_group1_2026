@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Carbook - Free Bootstrap 4 Template by Colorlib</title>
+    <title>FawCar About</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -30,7 +30,7 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">Car<span>Book</span></a>
+	      <a class="navbar-brand" href="index.php">Faw<span>Car</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -68,16 +68,20 @@
 				<div class="row no-gutters">
 					<div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/about.jpg);">
 					</div>
-					<div class="col-md-6 wrap-about ftco-animate">
-	          <div class="heading-section heading-section-white pl-md-5">
-	          	<span class="subheading">About us</span>
-	            <h2 class="mb-4">Welcome to Carbook</h2>
+<div class="col-md-6 wrap-about ftco-animate">
+    <div class="heading-section heading-section-white pl-md-5">
+        <span class="subheading">Our Epic Genesis</span>
+        <h2 class="mb-4">Three States. One Unbreakable Destiny.</h2>
 
-	            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	            <p><a href="rent.php" class="btn btn-primary py-3 px-4">Search Vehicle</a></p>
-	          </div>
-					</div>
+        <p>It began as a distant whisper across the landscapes of Malaysia. Three young visionaries, born in completely different corners of the nation, separated by miles of rugged terrain and distinct cultures, shared the exact same burning ambition inside their hearts.</p>
+        
+        <p>Leaving behind the comfort of their home states, destiny pulled them into the chaotic, neon-lit heart of Kuala Lumpur. In the bustling streets of the capital, their paths inevitably crossed. Out of sheer grit, countless sleepless nights, and a shared passion for automobiles, they united their minds to forge something legendary.</p>
+
+        <p>What started as a wild dream between three brothers in KL has evolved into <strong>FawCar</strong>—a powerhouse born from brotherhood, fueled by relentless Malaysian pride, and engineered to change the way the world moves. We don't just rent cars; we bridge journeys.</p>
+        
+        <p><a href="rent.php" class="btn btn-primary btn-outline-primary var-btn py-3 px-4">Search Vehicle Now</a></p>
+    </div>
+</div>
 				</div>
 			</div>
 		</section>
@@ -95,23 +99,34 @@
             <div class="carousel-testimony owl-carousel ftco-owl">
               <div class="item">
                 <div class="testimony-wrap rounded text-center py-4 pb-5">
-                  <div class="user-img mb-2" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img mb-2" style="background-image: url(images/aizul.jpg)">
                   </div>
                   <div class="text pt-4">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Roger Scott</p>
-                    <span class="position">Marketing Manager</span>
+                    <p class="mb-4">Bringing the fast-paced energy and sharp hustle straight from Penang to the city capital to direct our company's ultimate growth roadmap.</p>
+                    <p class="name">Aizul Iman</p>
+                    <span class="position">CEO FawCar</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap rounded text-center py-4 pb-5">
-                  <div class="user-img mb-2" style="background-image: url(images/person_2.jpg)">
+                  <div class="user-img mb-2" style="background-image: url(images/amsyar.jpg)">
                   </div>
                   <div class="text pt-4">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Roger Scott</p>
-                    <span class="position">Interface Designer</span>
+                    <p class="mb-4">Uniting the rich cultural traditions of Negeri Sembilan and the coastal drive of Terengganu to protect and maximize our financial infrastructure.</p>
+                    <p class="name">Wan Amsyar</p>
+                    <span class="position">CFO Finance </span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap rounded text-center py-4 pb-5">
+                  <div class="user-img mb-2" style="background-image: url(images/fawwaz.jpg)">
+                  </div>
+                  <div class="text pt-4">
+                    <p class="mb-4">Channelling the vast power and grand scale of his home state of Pahang into creative, high-impact marketing campaigns across the nation.</p>
+                    <p class="name">Tuan Fawwaz</p>
+                    <span class="position">CFO Marketing</span>
                   </div>
                 </div>
               </div>
