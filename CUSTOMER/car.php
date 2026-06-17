@@ -71,12 +71,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/aruz.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Perodua Aruz</a></h2>
+    						<h2 class="mb-0"><a href="zdetailaruz.php">Perodua Aruz</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Perodua</span>
 	    						<p class="price ml-auto">RM45 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="zdetailaruz.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -85,12 +85,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/city_hatchback.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Honda City Hatchback</a></h2>
+    						<h2 class="mb-0"><a href="zdetailcityhatchback.php">Honda City Hatchback</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Honda</span>
 	    						<p class="price ml-auto">RM 50 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="zdetailcityhatchback.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -99,12 +99,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/civic.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Honda Civic</a></h2>
+    						<h2 class="mb-0"><a href="zdetailcivic.php">Honda Civic</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Honda</span>
 	    						<p class="price ml-auto">RM 70 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="zdetailcivic.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -114,12 +114,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/crv.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Honda CRV</a></h2>
+    						<h2 class="mb-0"><a href="zdetailcrv.php">Honda CRV</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Honda</span>
 	    						<p class="price ml-auto">RM 65 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="zdetailcrv.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -128,12 +128,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/emas7.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Proton Emas 7</a></h2>
+    						<h2 class="mb-0"><a href="zdetailemas7.php">Proton Emas 7</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Proton</span>
 	    						<p class="price ml-auto">RM 56  <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="zdetailemas7.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -142,12 +142,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/yaris_gr.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Toyota Yaris GR</a></h2>
+    						<h2 class="mb-0"><a href="zdetailyarisgr.php">Toyota Yaris GR</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Toyota</span>
 	    						<p class="price ml-auto">RM 75 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="zdetailyarisgr.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -157,12 +157,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/hrv.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Honda HRV</a></h2>
+    						<h2 class="mb-0"><a href="zdetailhrv.php">Honda HRV</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Honda</span>
 	    						<p class="price ml-auto">RM50 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="zdetailhrv.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -171,12 +171,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/myvi.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Perodua Myvi</a></h2>
+    						<h2 class="mb-0"><a href="zdetailmyvi.php">Perodua Myvi</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Perodua</span>
 	    						<p class="price ml-auto">RM 35 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="zdetailmyvi.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -185,12 +185,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/s70.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Proton S70</a></h2>
+    						<h2 class="mb-0"><a href="zdetails70.php">Proton S70</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Proton</span>
 	    						<p class="price ml-auto">RM 45 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="zdetails70.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -200,12 +200,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/vellfire.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Toyota Vellfire</a></h2>
+    						<h2 class="mb-0"><a href="zdetailvellfire.php">Toyota Vellfire</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Toyota</span>
 	    						<p class="price ml-auto">RM 65 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"> <a href="zdetailvellfire.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -214,12 +214,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/x90.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Proton X90</a></h2>
+    						<h2 class="mb-0"><a href="zdetailx90.php">Proton X90</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Proton</span>
 	    						<p class="price ml-auto">RM 55 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="zdetailx90.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
@@ -228,12 +228,12 @@
     					<div class="img rounded d-flex align-items-end" style="background-image: url(images/staria.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Hyundai Staria</a></h2>
+    						<h2 class="mb-0"><a href="zdetailstaria.php">Hyundai Staria</a></h2>
     						<div class="d-flex mb-3">
 	    						<span class="cat">Hyundai</span>
 	    						<p class="price ml-auto">RM 75 <span>/day</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="zdetailstaria.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
