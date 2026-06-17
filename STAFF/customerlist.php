@@ -121,10 +121,10 @@ $result = mysqli_query($conn, $query);
                 <div id="collapsePages" class="collapse show" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Management:</h6>
-                        <a class="collapse-item" href="login.php">Total Staff</a>
-                        <a class="collapse-item" href="register.php">Total Reservation</a>
-                        <a class="collapse-item active" href="forgot-password.php">Total Customer</a>
-                        <a class="collapse-item" href="404.php">Total Vehicle</a>
+                        <a class="collapse-item" href="staff.php">Total Staff</a>
+                        <a class="collapse-item" href="reservationlist.php">Total Reservation</a>
+                        <a class="collapse-item active" href="customerlist.php">Total Customer</a>
+                        <a class="collapse-item" href="vehiclelist.php">Total Vehicle</a>
                     </div>
                 </div>
             </li>

@@ -12,7 +12,7 @@ $result = mysqli_query($conn, $query);
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Master Catalog - Fleet Assets</title>
+    <title>Staff - Vehicle List</title>
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 </head>
@@ -31,10 +31,10 @@ $result = mysqli_query($conn, $query);
                 <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePages"><i class="fas fa-fw fa-folder"></i><span>Vehicle LogisticsCenter</span></a>
                 <div id="collapsePages" class="collapse show">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="login.php">Total Staff</a>
-                        <a class="collapse-item" href="register.php">Total Reservation</a>
-                        <a class="collapse-item" href="forgot-password.php">Total Customer</a>
-                        <a class="collapse-item active" href="404.php">Total Vehicle</a>
+                        <a class="collapse-item" href="staff.php">Total Staff</a>
+                        <a class="collapse-item" href="reservationlist.php">Total Reservation</a>
+                        <a class="collapse-item" href="customerlist.php">Total Customer</a>
+                        <a class="collapse-item active" href="vehiclelist.php">Total Vehicle</a>
                     </div>
                 </div>
             </li>
